@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_TestFolder/TestArena.unity
+  isLoaded: 1
+  isActive: 1
