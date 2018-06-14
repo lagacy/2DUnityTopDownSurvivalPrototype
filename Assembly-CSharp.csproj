@@ -59,13 +59,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_SystemDesign 1\_ABClass\AEntity.cs" />
     <Compile Include="Assets\_TestFolder\_TScript\CharacterController.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Source Control/Project_Withered_Leaf/Project_Withered_Leaf/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\_TestFolder\_TScript\UI\MainMenu\MainMenu.cs" />
+    <Compile Include="Assets\AssetStore\RainMaker\Demo\DemoScript.cs" />
+    <Compile Include="Assets\AssetStore\RainMaker\Demo\DemoScript2D.cs" />
+    <Compile Include="Assets\AssetStore\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
+    <Compile Include="Assets\AssetStore\RainMaker\Prefab\BaseRainScript.cs" />
+    <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainCollision.cs" />
+    <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainScript.cs" />
+    <Compile Include="Assets\AssetStore\RainMaker\Prefab\RainScript2D.cs" />
+    <None Include="Assets\_Scenes\ReadMe.txt" />
+    <None Include="Assets\_LevelDesign\ReadMe.txt" />
+    <None Include="Assets\_Ressource\ReadMe.txt" />
+    <None Include="Assets\_Prefabs\ReadMe.txt" />
+    <None Include="Assets\_SystemDesign\ReadMe.txt" />
+    <None Include="Assets\_2DArt\ReadMe.txt" />
+    <None Include="Assets\AssetStore\ReadMe.txt" />
+    <None Include="Assets\AssetStore\RainMaker\Prefab\RainShader.shader" />
+    <None Include="Assets\_TestFolder\ReadMe.txt" />
+    <None Include="Assets\_Materials\ReadMe.txt" />
+    <None Include="Assets\AssetStore\RainMaker\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Source Control/Project_Withered_Leaf/Project_Withered_Leaf/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Source Control/Project_Withered_Leaf/Project_Withered_Leaf/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
