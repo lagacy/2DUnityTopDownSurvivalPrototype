@@ -11,6 +11,10 @@ public class CharacterController : MonoBehaviour {
     public float m_ReachDistance = 30f;
     public float m_MouseSelectionRadius = 1f;
 
+    bool m_MenuOpen = false;
+
+    private UIManager m_Ui;
+
 
     [SerializeField] private bool m_IsRunning = false;
     private Camera m_PlayerCam;
@@ -18,13 +22,18 @@ public class CharacterController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        m_Ui = GameObject.Find("Ui").GetComponent<UIManager>();
         m_PlayerCam = Camera.main;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        Move();
-        InputManagement();
+        if (!m_Ui.GetMenuState())
+        {
+            Move();
+            ActionInputUpdate();
+        }
+        UIUpdate();
     }
 
     void Move()
@@ -125,7 +134,7 @@ public class CharacterController : MonoBehaviour {
         return null;
     }
 
-    void InputManagement()
+    void ActionInputUpdate()
     {
         if (Input.GetButton("Fire1"))
         {
@@ -137,6 +146,14 @@ public class CharacterController : MonoBehaviour {
             m_Target = OnCursor(m_ReachDistance);
         }
 
+    }
+
+    void UIUpdate()
+    {
+        if (Input.GetButtonDown("Cancel"))
+        {
+            m_Ui.ShowMenu();
+        }
     }
 
 
