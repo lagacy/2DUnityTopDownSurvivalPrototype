@@ -2,8 +2,8 @@ WindowsStandalone
 PlayerPath?
 D:/Source Control/Project_Withered_Leaf/Project_Withered_Leaf/Build/Build.exe
 SceneListBegin?
-Assets/_TestFolder/_Scenes/_TMainMenuScene.unity
-Assets/_TestFolder/_Scenes/TestArena.unity
+Assets/_TestFolder/_TScenes/_TMainMenuScene.unity
+Assets/_TestFolder/_TScenes/TestArena.unity
 SceneListEnd?
 68d6c0e71262f424efbe5dd84e76d612 Assembly-CSharp.dll:.MainMenu
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -135,7 +135,8 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 4e788654e0a1d4916be67f4cea6f2d4f Assembly-CSharp.dll:DigitalRuby.RainMaker.RainScript2D
-8163646cb15e9e994ae99b6d3487b871 Assembly-CSharp.dll:.CharacterController
+2913c134d72876f6bd7dde53b64e3741 Assembly-CSharp.dll:.UIManager
+5af8b918b075a18d8dc7df71124edd97 Assembly-CSharp.dll:.CharacterController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 f02726adeff0a3ec5905565234b372da UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -155,4 +156,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 bcfc20d487bd118a9c10b5e5edd279cb Assembly-CSharp.dll:DigitalRuby.RainMaker.DemoScriptStartRainOnSpaceBar
 0a6c82061bcda3c3322ce3bba26fd9b5 Assembly-CSharp.dll:DigitalRuby.RainMaker.DemoScript2D
-6c9015b13f8e55ce81d09dad9fcda7e1 Assembly-CSharp.dll:.UIManager

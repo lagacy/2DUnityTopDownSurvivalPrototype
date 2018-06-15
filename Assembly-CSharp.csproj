@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_TestFolder\_TScript\CharacterController.cs" />
+    <Compile Include="Assets\_TestFolder\_TScript\ManagerMode.cs" />
     <Compile Include="Assets\_TestFolder\_TScript\UI\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\_TestFolder\_TScript\UI\PlayerUI\UIManager.cs" />
     <Compile Include="Assets\AssetStore\RainMaker\Demo\DemoScript.cs" />
